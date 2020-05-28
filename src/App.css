@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+:root{
+  --mainBlack: #000000;
+  --sky: #d0e1f9;
+  --carbon: rgb(169, 169, 169);
+  --neutral: rgb(239, 239, 239);
+  --mainBlue: #0f4c81;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background:  #ff3b3f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-family: 'Roboto Slab', serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* ===================== Home ===================== */
+/* Home Page Banner */
+
+.banner-main-header{
+  font-size: 5rem;
   color: white;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-sub-header{
+  font-size: 2.5rem;
+  color: white;
+  text-transform: capitalize;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Project Section */
+.home-project{
+  justify-content: center;
+  width: 100vw;
+  background: var(--mainBlue) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-header{
+  font-size: 3rem !important;
+  color: var(--mainBlack);
+}
+
+/* About Section */
+.home-about{
+  width: 100vw;
+  align-items: center;
+  background: #FFFF !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

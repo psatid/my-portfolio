@@ -1,14 +1,8 @@
 import React from 'react';
 import { Card, Button, Row } from 'react-bootstrap';
 import styled from 'styled-components';
-import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 
 export default function ProjectCard({ name, img, url, github, toolUsed }) {
-    // console.log(toolUsed);
-
-    // const toolEl = toolUsed.forEach((tool) => {
-    //     return <ElementContainer>{tool}</ElementContainer>;
-    // });
     return (
         <ProjectWrapper>
             <Card.Img variant="top" src={img} style={{ width: '100%' }} />

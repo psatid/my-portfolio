@@ -10,7 +10,7 @@ export const projectData = [
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae, eum maiores est enim earum fugiat aspernatur. Fuga qui iste amet reiciendis possimus rerum omnis recusandae molestias error consequuntur, doloribus inventore reprehenderit officiis. Dolore aut, repellendus eius fugiat numquam cumque.',
         img: eCommerceImg,
-        toolUsed: ['react', 'context api', 'bootstrap'],
+        toolUsed: ['react', 'context API', 'bootstrap'],
         url: 'https://psatid-react-ecommerce.netlify.app/',
         github: 'https://github.com/psatid/e-commerce-web'
     },
@@ -20,38 +20,18 @@ export const projectData = [
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae, eum maiores est enim earum fugiat aspernatur. Fuga qui iste amet reiciendis possimus rerum omnis recusandae molestias error consequuntur, doloribus inventore reprehenderit officiis. Dolore aut, repellendus eius fugiat numquam cumque.',
         img: SocialMeidaImg,
-        toolUsed: ['react', 'redux', 'nodejs', 'material-ui'],
+        toolUsed: ['react', 'redux', 'nodejs', 'material-UI'],
         url: 'https://psatid-social-media-app.netlify.app/',
         github: 'https://github.com/psatid/social-media-react'
     },
     {
         id: 3,
-        name: 'react-project 03',
+        name: 'Traffic Identification System',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae, eum maiores est enim earum fugiat aspernatur. Fuga qui iste amet reiciendis possimus rerum omnis recusandae molestias error consequuntur, doloribus inventore reprehenderit officiis. Dolore aut, repellendus eius fugiat numquam cumque.',
         img: ProjectImg02,
-        toolUsed: ['react', 'context api', 'bootstrap'],
-        url: 'https://psatid-react-ecommerce.netlify.app/',
-        github: 'https://github.com/psatid/e-commerce-web'
-    },
-    {
-        id: 4,
-        name: 'react-project 04',
-        description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae, eum maiores est enim earum fugiat aspernatur. Fuga qui iste amet reiciendis possimus rerum omnis recusandae molestias error consequuntur, doloribus inventore reprehenderit officiis. Dolore aut, repellendus eius fugiat numquam cumque.',
-        img: ProjectImg01,
-        toolUsed: ['react', 'context api', 'bootstrap'],
-        url: 'https://psatid-react-ecommerce.netlify.app/',
-        github: 'https://github.com/psatid/e-commerce-web'
-    },
-    {
-        id: 5,
-        name: 'react-project 05',
-        description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae, eum maiores est enim earum fugiat aspernatur. Fuga qui iste amet reiciendis possimus rerum omnis recusandae molestias error consequuntur, doloribus inventore reprehenderit officiis. Dolore aut, repellendus eius fugiat numquam cumque.',
-        img: ProjectImg02,
-        toolUsed: ['react', 'context api', 'bootstrap'],
-        url: 'https://psatid-react-ecommerce.netlify.app/',
-        github: 'https://github.com/psatid/e-commerce-web'
+        toolUsed: ['python', 'openCV'],
+        url: 'https://github.com/psatid/vehicle-detection',
+        github: 'https://github.com/psatid/vehicle-detection'
     }
 ];

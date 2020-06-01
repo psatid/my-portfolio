@@ -1,84 +1,52 @@
 import React, { Component } from 'react';
-import { Media } from 'react-breakpoints';
 import styled from 'styled-components';
-import { Col, Row, Container, Button } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import background from '../img/background2.jpeg';
 import { Link as scrollLink } from 'react-scroll';
 
 export default class Header extends Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
-            <Media>
-                {({ breakpoints, currentBreakpoint }) =>
-                    breakpoints[currentBreakpoint] > breakpoints.tablet ? (
-                        <Banner id="header">
-                            <Row>
-                                <Col className="my-auto ml-5">
-                                    >
-                                    <h1
-                                        className="banner-sub-header"
-                                        style={{ color: 'white' }}
-                                    >
-                                        Hello, I'm
-                                    </h1>
-                                    <h1 className="banner-main-header">
-                                        Satid T.
-                                    </h1>
-                                    <div className="underline" />
-                                    <h1
-                                        className="banner-sub-header"
-                                        style={{ color: 'white' }}
-                                    >
-                                        Welcome to My Personal Site
-                                    </h1>
-                                </Col>
-                            </Row>
+            <Banner id="header">
+                <Row>
+                    <Col className="my-auto ml-5">
+                        <h1
+                            className="banner-sub-header"
+                            style={{ color: 'white' }}
+                        >
+                            Hello, I'm
+                        </h1>
+                        <h1 className="banner-main-header">Satid T.</h1>
+                        <div className="underline" />
+                        <h1
+                            className="banner-sub-header"
+                            style={{ color: 'white' }}
+                        >
+                            Welcome to My Personal Site
+                        </h1>
+                    </Col>
+                </Row>
 
-                            <Row>
-                                <div
-                                    style={{
-                                        position: 'absolute',
-                                        bottom: '0'
-                                    }}
-                                >
-                                    <ScrollDownBtn
-                                        activeClass="active"
-                                        to="project"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-70}
-                                        duration={800}
-                                    >
-                                        <i className="fas fa-chevron-down"></i>
-                                    </ScrollDownBtn>
-                                </div>
-                            </Row>
-                        </Banner>
-                    ) : (
-                        <Banner id="header">
-                            <Col className="my-auto ml-5">
-                                <h1
-                                    className="banner-sub-header"
-                                    style={{ color: 'white' }}
-                                >
-                                    Hello, I'm
-                                </h1>
-                                <h1 className="banner-main-header">Satid T.</h1>
-                                <div className="underline" />
-                                <h1
-                                    className="banner-sub-header"
-                                    style={{ color: 'white' }}
-                                >
-                                    Welcome to My Personal Site
-                                </h1>
-                            </Col>
-                        </Banner>
-                    )
-                }
-            </Media>
+                <Row>
+                    <div
+                        style={{
+                            position: 'absolute',
+                            bottom: '0'
+                        }}
+                    >
+                        <ScrollDownBtn
+                            activeClass="active"
+                            to="project"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={800}
+                        >
+                            <i className="fas fa-chevron-down"></i>
+                        </ScrollDownBtn>
+                    </div>
+                </Row>
+            </Banner>
         );
     }
 }

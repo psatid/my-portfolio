@@ -1,7 +1,6 @@
-import ProjectImg01 from './img/test02.png';
-import ProjectImg02 from './img/test.png';
 import eCommerceImg from './img/eCommerce-project.png';
 import SocialMeidaImg from './img/social-media-project.png';
+import TrafficIdentificationImg from './img/traffic-identification.png';
 
 export const projectData = [
     {
@@ -29,9 +28,9 @@ export const projectData = [
         name: 'Traffic Identification System',
         description:
             'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quae, eum maiores est enim earum fugiat aspernatur. Fuga qui iste amet reiciendis possimus rerum omnis recusandae molestias error consequuntur, doloribus inventore reprehenderit officiis. Dolore aut, repellendus eius fugiat numquam cumque.',
-        img: ProjectImg02,
+        img: TrafficIdentificationImg,
         toolUsed: ['python', 'openCV'],
-        url: 'https://github.com/psatid/vehicle-detection',
+        url: 'https://youtu.be/P2iGUZAEgKM',
         github: 'https://github.com/psatid/vehicle-detection'
     }
 ];

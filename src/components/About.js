@@ -46,21 +46,23 @@ export default class About extends Component {
                                     Chulalongkorn University
                                 </h4>
 
-                                <h1 style={{ fontSize: '1.5rem' }}>Skills</h1>
-
-                                <h4>Web Development, Data Analysis</h4>
-
                                 <h1 style={{ fontSize: '1.5rem' }}>
-                                    Database Management
+                                    Frontend Skills
                                 </h1>
 
-                                <h4>Firebase, MongoDB</h4>
+                                <h4>React, Redux, Next.js</h4>
+
+                                <h1 style={{ fontSize: '1.5rem' }}>
+                                    UI Library
+                                </h1>
+
+                                <h4>Material-UI, Bootstrap</h4>
 
                                 <h1 style={{ fontSize: '1.5rem' }}>
                                     Programming Skills
                                 </h1>
 
-                                <h4>Java, Javascript, R, Python</h4>
+                                <h4>Java, Javascript, R, Python, Typescript</h4>
 
                                 <ButtonContainer className="mt-2">
                                     <a
@@ -102,21 +104,23 @@ export default class About extends Component {
                                     Chulalongkorn University
                                 </h4>
 
-                                <h1 style={{ fontSize: '1.5rem' }}>Skills</h1>
-
-                                <h4>Web Development, Data Analysis</h4>
-
                                 <h1 style={{ fontSize: '1.5rem' }}>
-                                    Database Management
+                                    Frontend Skills
                                 </h1>
 
-                                <h4>Firebase, MongoDB</h4>
+                                <h4>React, Redux, Next.js</h4>
+
+                                <h1 style={{ fontSize: '1.5rem' }}>
+                                    UI Library
+                                </h1>
+
+                                <h4>Material-UI, Bootstrap</h4>
 
                                 <h1 style={{ fontSize: '1.5rem' }}>
                                     Programming Skills
                                 </h1>
 
-                                <h4>Java, Javascript, R, Python</h4>
+                                <h4>Java, Javascript, R, Python, Typescript</h4>
 
                                 <div className="text-center">
                                     <ButtonContainer className="mt-2">

@@ -23,21 +23,17 @@ export default class Project extends Component {
                     </Col>
                 </Row>
                 <Row className="justify-content-center mx-auto mt-4 mb-5">
-                    {this.state.projects.map((project) => {
-                        if (project.id < 5) {
-                            return (
-                                <ProjectCard
-                                    key={project.id}
-                                    name={project.name}
-                                    description={project.description}
-                                    img={project.img}
-                                    url={project.url}
-                                    github={project.github}
-                                    toolUsed={project.toolUsed}
-                                />
-                            );
-                        }
-                    })}
+                    {this.state.projects.map((project) => (
+                        <ProjectCard
+                            key={project.id}
+                            name={project.name}
+                            description={project.description}
+                            img={project.img}
+                            url={project.url}
+                            github={project.github}
+                            toolUsed={project.toolUsed}
+                        />
+                    ))}
                 </Row>
             </Row>
         );
